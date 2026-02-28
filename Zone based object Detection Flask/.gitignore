@@ -1,0 +1,29 @@
+# Virtual environment
+venva/
+venv/
+env/
+
+# Uploads and outputs
+uploads/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
