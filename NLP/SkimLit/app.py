@@ -11,11 +11,10 @@ txt=st.text_area('Text to analyze', '''
     was the season of Light, it was the season of Darkness, it
     was the spring of hope, it was the winter of despair, (...)
     ''')
+# model path
 model_path = "skimlit_tribrid_model"
 print("hi")
 # Load saved model
-
-
 
 def get_results(abs_text):
   loaded_model = tf.keras.models.load_model(model_path)
@@ -61,4 +60,5 @@ if st.button('skimmed'):
   get_results(txt)
   
   
+
     
